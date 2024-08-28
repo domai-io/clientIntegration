@@ -1,0 +1,450 @@
+@media (max-width: 767.99px) {
+    .search-text{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .playground_Refine_header{
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .row-style{
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-domains{
+        border-left: none !important;
+        border-right: none !important;
+        border-top: none !important;
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-options{
+        color: #8da9db !important;
+        border: 2px solid #8da9db;
+    }
+
+    .domain-search-btn{
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* background-color: black; */
+        padding: 0.68rem 1rem;
+        --bs-btn-color: white !important;
+        /* border-radius: 10px !important; */
+        border-left: none !important;
+    }
+
+    .results_display a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+
+    .DS-col{
+        height: 300px;
+        overflow-y: scroll;
+        overflow-x: visible;
+       
+    }
+
+    .domain-search-btn:hover,
+    .domain-search-btn:active,
+    .domain-search-btn:focus
+    {
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: lightgray;
+        padding: 0.68rem 1rem;
+        border-left: none !important;
+        border-color: lightgray !important;
+        
+    }
+
+    .popover-content {
+        position: absolute;
+        top: 220%;
+        left: -600%;
+        width: 160px; 
+        background-color: white;
+        border: 1px solid #ccc;
+        /* border-radius: 10px; */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        display: none;
+        z-index: 5;
+        font-size: 8px !important;
+        
+        text-align: start;
+        
+    }
+
+    .domain-row-name{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .discounted-price{
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: line-through;
+        line-height: 17px;
+    }
+
+    .discount-info{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .domain-search-input{
+        font-size: 10px;
+        font-style: normal;
+        line-height: normal;
+        padding: 0.59rem 1rem;
+        background-color: transparent !important;
+        width: 200px !important;
+        border-right: none !important;
+    }
+
+    .search-style{
+        width: 10px;
+    }
+
+    .cart-style{
+        width: 20px;
+        margin: 20px;
+    }
+    
+    .cart-box,
+    .cart-box:active{
+        border: 1.7px solid black;
+        border-radius: 5px;
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .cart-box:focus,
+    .cart-box:hover
+    {
+        border: 1.7px solid black !important;
+        border-radius: 5px;
+        background-color: gray !important; 
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .discount-info{
+        width: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .search-text{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .playground_Refine_header{
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .row-style{
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-domains{
+        border-left: none !important;
+        border-right: none !important;
+        border-top: none !important;
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-options{
+        color: #8da9db !important;
+        border: 2px solid #8da9db;
+    }
+
+    .domain-search-btn{
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* background-color: black; */
+        padding: 0.68rem 1rem;
+        --bs-btn-color: white !important;
+        border-left: none !important;
+    }
+
+    .results_display a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+
+    .DS-col{
+        height: 300px;
+        overflow-y: scroll;
+        overflow-x: visible;
+       
+    }
+
+    .domain-search-btn:hover
+    .domain-search-btn:active,
+    .domain-search-btn:focus
+    {
+        color: #FFF;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: lightgray;
+        padding: 0.68rem 1rem;
+        border-left: none !important;
+        border-color: lightgray !important;
+        
+    }
+
+    .popover-content {
+        position: absolute;
+        top: 220%;
+        left: -600%;
+        width: 160px; 
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        display: none;
+        z-index: 5;
+        font-size: 8px !important;
+        text-align: start;
+        
+    }
+
+    .domain-row-name{
+        font-size: 26px;
+        font-weight: 600;
+        line-height: inherit;
+    }
+
+    .discounted-price{
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: line-through;
+        line-height: 27px;
+    }
+
+    .discount-info{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .domain-search-input{
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+        padding: 0.59rem 1rem;
+        background-color: transparent !important;
+        width: 400px !important;
+        border-right: none !important;
+    }
+
+    .search-style{
+        width: 19px;
+    }
+
+    .cart-style{
+        width: 20px;
+        margin: 20px;
+    }
+    
+    .cart-box,
+    .cart-box:active{
+        border: 1.7px solid black;
+        border-radius: 5px;
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .cart-box:focus,
+    .cart-box:hover
+    {
+        border: 1.7px solid black !important;
+        border-radius: 5px;
+        background-color: gray !important; 
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .discount-info{
+        width: 16px;
+    }
+}
+
+@media (min-width: 992px){
+    .search-text{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .playground_Refine_header{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .row-style{
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-domains{
+        border-left: none !important;
+        border-right: none !important;
+        border-top: none !important;
+        border: 0.2px solid lightgray;
+    }
+
+    .row-style-options{
+        color: #8da9db !important;
+        border: 2px solid #8da9db;
+    }
+
+    .domain-search-btn{
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* background-color: black; */
+        padding: 0.68rem 1rem;
+        --bs-btn-color: white !important;
+        border-left: none !important;
+    }
+
+    .results_display a{
+        text-decoration: none;
+        color: #000;
+        
+    }
+
+    .DS-col{
+        height: 300px;
+        overflow-y: scroll;
+        overflow-x: visible;
+       
+    }
+
+    .domain-search-btn:hover
+    .domain-search-btn:active,
+    .domain-search-btn:focus
+    {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background-color: lightgray;
+        padding: 0.68rem 1rem;
+        border-left: none !important;
+        border-color: lightgray !important;
+        
+    }
+
+    .popover-content {
+        position: absolute;
+        top: -420%;
+        left: 20%;
+        width: 240px; 
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        display: none;
+        z-index: 5;
+        font-size: 12px;
+    }
+
+    .domain-row-name{
+        font-size: 23px;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .discounted-price{
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: line-through;
+        line-height: 24px;
+    }
+
+    .discount-info{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .domain-search-input{
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+        padding: 0.5rem 1rem;
+        background-color: transparent !important;
+        width: 410px;
+        border-right: none !important;
+    }
+
+    .search-style{
+        width: 16px;
+    }
+
+    .search-style{
+        width: 17px;
+    }
+
+    .cart-style{
+        width: 20px;
+        margin: 20px;
+    }
+    
+    .cart-box,
+    .cart-box:active{
+        border: 1.7px solid black;
+        border-radius: 5px;
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .cart-box:focus,
+    .cart-box:hover
+    {
+        border: 1.7px solid black !important;
+        border-radius: 5px;
+        background-color: gray !important; 
+        --bs-btn-padding-x: 0;
+        --bs-btn-padding-y: 0;
+    }
+
+    .discount-info{
+        width: 16px;
+    }
+}
+
+.domain-container{
+    border-left: none !important;
+    border-right: none !important;
+    border: 0.2px solid lightgray;
+}
+
+.domain-search-input:focus{
+    outline: none !important;
+    border-radius: 0 !important;
+}
+
+
+
